@@ -1,11 +1,11 @@
 {
-  "name": "cookie_clicker",
-  "version": "1.0.0",
+  "name": "torch",
+  "version": "0.0.1",
   "private": true,
   "fitbit": {
-    "appUUID": "2bcb9c0f-493b-4ec5-9fe0-07039a28ffa1",
+    "appUUID": "2bcb9c0f-493b-4ec5-9fe0-07039a28ffa2",
     "appType": "app",
-    "appDisplayName": "Cookie Clicker",
+    "appDisplayName": "Torch",
     "iconFile": "resources/icon.png",
     "wipeColor": "#8bc34a",
     "requestedPermissions": [],

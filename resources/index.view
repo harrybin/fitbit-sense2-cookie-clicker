@@ -1,25 +1,14 @@
 <svg viewport-fill="black">
-  <g id="cookie" pointer-events="visible" transform="translate(50%,50%)">
-    <animateTransform id="a1" attributeType="scale" from="1" to="1.1" begin="click" dur=".2"/>
-    <animateTransform attributeType="scale" from="1.1" to="1" begin="a1.end" dur=".2"/>
+  <g id="face" pointer-events="visible" transform="translate(50%,50%)">
+    <animateTransform id="a1" attributeType="scale" from="1" to="1.1" begin="click" dur=".2" />
+    <animateTransform attributeType="scale" from="1.1" to="1" begin="a1.end" dur=".2" />
+    <!-- the zero point of the display is in the middle -->
     <image
-      x="-75"
-      y="-75"
-      width="150"
-      height="150"
-      href="cookie.png"
+      x="-168"
+      y="-168"
+      width="336"
+      height="336"
+      href="torch.png"
     />
   </g>
-  <text
-    id="num"
-    x="50%"
-    y="90%"
-    font-family="System-Regular"
-    fill="white"
-    font-size="30"
-    font-weight="bold"
-    text-anchor="middle"
-  >
-    0
-  </text>
 </svg>
