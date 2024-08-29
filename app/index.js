@@ -7,18 +7,23 @@ import { me as appbit } from "appbit";
 
 const face = document.getElementById("face");
 let orgBrightness = display.brightnessOverride;
+let isExiting = false;
+
+setInterval(() => {
+  if (!isExiting) display.poke();
+}, 1500);
+
 display.brightnessOverride = "max";
-display.autoOff = false;
 display.poke();
 
 face.addEventListener("click", (evt) => {
   face.animate("click");
-  display.autoOff = true;
   display.brightnessOverride = orgBrightness;
+  isExiting = true;
   appbit.exit();
 });
 
 appbit.onunload = () => {
-  display.autoOff = true;
   display.brightnessOverride = orgBrightness;
+  isExiting = true;
 };
